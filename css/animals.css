@@ -1,0 +1,54 @@
+body {
+  font-family: Verdana, sans-serif;
+  background-color: rgb(201, 211, 219);
+  text-align: center;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* position for back logo*/
+#blogo{ 
+position:fixed; 
+top:0; 
+left:0; 
+
+} 
+
+/* position for front logo*/
+#flogo{ 
+  position:fixed; 
+  top:0; 
+  right:0; 
+  } 
+
+ 

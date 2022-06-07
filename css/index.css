@@ -78,7 +78,7 @@ img {
  .snowy {
   position: absolute;
   top: 40%;
-  right: -5%;
+  right: -1%;
   transform: translate(-50%, -50%);
 
 }
@@ -86,7 +86,7 @@ img {
 .snowyImage {
   position: absolute;
   top: 27%;
-  right: -3%;
+  right: -1%;
   transform: translate(-50%, -50%);
 
 }
